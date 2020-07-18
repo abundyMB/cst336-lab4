@@ -1,4 +1,21 @@
 body {
-    background-color: #CBE2F6;
+    background-color: #000000;
     text-align: center;
+    color: white;
+}
+
+nav a { 
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #ff9933;
+}
+
+nav a:link {
+    color: #1655D3;
+}
+
+nav a:visited {
+    color: #EA3320;
 }

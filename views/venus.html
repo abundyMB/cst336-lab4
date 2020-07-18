@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Venus </title>
-    </head>
-    <body>
-        <h1>Welcome to Venus.</h1>
-        <p> Enjoy molten lead.</p>
-    </body>
-</html>
+<%- include('partials/header.ejs') %>
+        <h1>Welcome to Venus!</h1>
+        <br>
+        <img src="/img/venus.jpg" alt="Venus" />
+        <br>
+        <p> Venus, the second planet from the sun, is one of the most Earth-like planets
+        in the Solar System. However, while Earth and Venus were likely twin planets for
+        most of their lives, Venus's evolution took a radical turn about a billion years ago.
+        For reasons still unknown, Venus today is now a greenhouse planet, with the hotest
+        surface temperatures in the Solar System (over 860 F), an atmosphere pressure 90
+        times that of Earth's, and an atomospheric partly composed of sulfuric acid. It's no
+        wonder then why Venus is considered Earth's evil twin.</p>
+        
+        <h3 class="text-center bg-primary text-white">Fun facts:</h3>
+        <div class="pl-3 text-left">
+            <h5 class="font-weight-bold">Strange Rotation:</h5>
+            <p>Unlike most of the other planets, Venus rotates in an opposite direction from
+            the rest of the planets. Additionaly, a day there is longer than a year (243 Earth-days
+            per Venusian day, 224 Earth-days per Venusian year).
+                <br><a href="https://www.scientificamerican.com/article/why-venus-spins-the-wrong/">
+                Why Venus Spins the Wrong Way</a></p>
+            <br>
+            <h5 class="font-weight-bold">Potential Life:</h5>
+            <p>Temperatures hot enough to melt lead. A crushing, acidic atmosphere. These
+            hellish conditions seem like the last place one would find life. Yet, some 
+            scientists suggest that life could survive on Venus. Or rather, in Venus's 
+            clouds. The planet's upper atmosphere offers a much more hospitable environment
+            conducive to lifeforms that ride air currents and stay above the deadly surface.
+                <br><a href="https://www.space.com/40304-venus-clouds-alien-life-search.html">
+                Life on Venus? Why It's Not an Absurd Thought</a></p>
+        </div>
+        <br>
+        
+<%- include('partials/footer.ejs') %>
