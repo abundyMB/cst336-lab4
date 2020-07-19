@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 nav a { 
@@ -18,4 +18,10 @@ nav a:link {
 
 nav a:visited {
     color: #EA3320;
+}
+
+nav .current {
+    border-bottom:2px red solid;
+    font-size: 2em;
+    color: orange;
 }

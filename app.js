@@ -1,3 +1,5 @@
+const NUM_PAGES = 5;
+
 const express = require("express");
 const app = express();
 app.engine('html', require('ejs').renderFile);
@@ -18,6 +20,10 @@ app.get("/venus", function(req, res) {
 
 app.get("/earth", function(req, res) {
    res.render("earth.html"); 
+});
+
+app.get("/pluto", function(req, res) {
+   res.render("pluto.html"); 
 });
 
 // starting server
